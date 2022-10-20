@@ -66,5 +66,6 @@ dcc.Input(id='num', type='number'),
                     ], style={'width':'50%','float':'right'}) 
                              ])
             
-app.run_server()
+if __name__=='__main__':
+  app.run_server()
 
